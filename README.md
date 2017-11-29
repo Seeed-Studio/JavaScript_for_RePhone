@@ -10,13 +10,13 @@ Follow [the JavaScript for RePhone wiki](http://www.seeedstudio.com/wiki/JavaScr
     - audio.pause()
     - audio.resume()
     - audio.stop()
-    - audio.set_volome(n), n from 1 to 6
-    - audio.get_volome()
+    - audio.set_volume(n), n from 1 to 6
+    - audio.get_volume()
     
 + gsm
     - gsm.call(phone_number)
     - gsm.hang()
-    - gsm.accept()
+    - gsm.answer()
     - gsm.on_incoming_call(function (phone_number) { print('incoming call from', phone_number); })
     - gsm.text(phone_number, message)
     - gsm.on_new_message(function (phone_number, message) { print('got a message'); })
